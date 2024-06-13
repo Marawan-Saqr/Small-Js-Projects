@@ -1,0 +1,217 @@
+/* Start My Global Theme */
+::selection{
+  color: orange;
+}
+
+button[class='send']{
+  color: white;
+  width: 16% !important;
+  margin: 0px 0px 37px 10px;
+  border: none;
+  border-radius: 9px;
+  background-color: green;
+}
+
+button[class='send']:hover{
+  background-color: #005200;
+}
+
+span{
+  margin-top: -29px !important;
+  color: green;
+}
+/* End My Global Theme */
+
+body{
+  background-color: "#d5d5d5";
+}
+
+/* Start Section introduction */
+.introduction{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid blue;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #008bff;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 1px 1px 13px 1px black;
+  z-index: 1000;
+}
+
+.introduction ul{
+  font-size: 16px;
+}
+
+.introduction button[class='yes']{
+  border: none;
+  border-radius: 20px;
+  background-color: green;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.introduction button[class='yes']:hover{
+  background-color: #004100;
+}
+
+.introduction button[class='no']{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.introduction button[class='no']:hover{
+  background-color: #8f0000;
+}
+/* End section introduction */
+
+/* Start section difficulty */
+.difficulty{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid blue;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #008bff;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 1px 1px 13px 1px black;
+  z-index: 100;
+  display: none;
+}
+
+.difficulty button[class='easy']{
+  border: none;
+  border-radius: 20px;
+  background-color: green;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.difficulty button[class='easy']:hover{
+  background-color: #004900;
+}
+
+.difficulty button[class='normal']{
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.difficulty button[class='normal']:hover{
+  background-color: #838300;
+}
+
+.difficulty button[class='hard']{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.difficulty button[class='hard']:hover{
+  background-color: #8a0000;
+}
+
+.difficulty ul{
+  list-style-type: none;
+}
+/* End section difficulty */
+
+/* Start Section easySection */
+.easySection{
+  border: 3px solid green;
+  padding: 35px 14px;
+  margin: 20px 52px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 1px black;
+  display: none;
+}
+/* End Section easySection */
+
+/* Start Section normalSection */
+.normalSection{
+  border: 3px solid yellow;
+  padding: 35px 14px;
+  margin: 20px 52px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 1px black;
+  display: none;
+}
+/* End Section normalSection */
+
+/* Start Section hardSection */
+.hardSection{
+  border: 3px solid red;
+  padding: 35px 14px;
+  margin: 20px 52px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 1px black;
+  display: none;
+}
+
+input{
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #0076ff;
+  margin-bottom: 38px;
+  width: 30% !important;
+}
+
+p{
+  color: red;
+  padding: 0px !important;
+  margin: 0px 0px 7px 0px;
+}
+/* End Section hardSection */
+
+/* Start Section Counter */
+.counter{
+  border: 1px solid #ff4c4c;
+  float: right;
+  padding: 8px;
+  border-radius: 34px;
+  margin: 9px;
+  display: none;
+}
+/* End Section Counter */
+
+/* Start Section yourScore */
+.yourScore{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid orange;
+  border-radius: 12px;
+  padding: 18px;
+  display: none;
+}
+
+.yourScore button{
+  background-color: green;
+  margin-top: 10px;
+}
+
+.yourScore button:hover{
+  background-color: #005c00;
+}
+/* End Section yourScore */

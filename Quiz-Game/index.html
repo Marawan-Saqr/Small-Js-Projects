@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <!--Bootstrap CSS CDN-->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <!--FontAwesome CSS-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!--My Main Css File-->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!--Start Section introduction-->
+  <section id="introduction" class="introduction">
+    <h2>Welcome visitor</h2>
+    <h4>Read the steps before starting</h4>
+    <ul>
+      <li>You will select the difficulty</li>
+      <li>Every Difficulty has three questions</li>
+      <li>Every question has five points</li>
+      <li>If the time finished your score will be 0</li>
+    </ul>
+    <h3>Are you ready?</h3>
+    <button id="btnYes" class="yes">Yes I'm Ready</button>
+    <button id="btnNo" class="no">No I'm Not Ready</button>
+  </section>
+  <!--End Section introduction-->
+
+  <!--Start Section counter-->
+  <section class="counter" id="counter">
+    30
+  </section>
+  <!--End Section counter-->
+
+  <!--Start Section difficulty-->
+  <section id="difficulty" class="difficulty">
+    <h2>Select Difficulty</h2>
+    <ul>
+      <button id="btnEasy" class="easy"><li>Easy</li></button>
+      <button id="btnNormal" class="normal"><li>Normal</li></button>
+      <button id="btnHard" class="hard"><li>Hard</li></button>
+    </ul>
+  </section>
+  <!--End Section difficulty-->
+
+  <!--Start Section easy-->
+  <section id="easySection" class="easySection">
+    <div class="container">
+      <div class="row">
+        <p>Who created the Google Chrome?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit1" class="send">Submit Answer</button>
+        <span id="span1"></span>
+        <p>Who is the real founder of Apple?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit2" class="send">Submit Answer</button>
+        <span id="span2"></span>
+        <p>Who is the top manager of Tesla company?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit3" class="send">Submit Answer</button>
+        <span id="span3"></span>
+      </div>
+      <button id="btnFinish" class="send">Finish</button>
+    </div>
+  </section>
+  <!--End section easy-->
+
+  <!--Start Section Normal-->
+  <section id="normalSection" class="normalSection">
+    <div class="container">
+      <div class="row">
+        <p>When Facebook has been created?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit4" class="send">Submit Answer</button>
+        <span id="span4"></span>
+        <p>Who landed on moon first?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit5" class="send">Submit Answer</button>
+        <span id="span5"></span>
+        <p>How Many Planets?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit6" class="send">Submit Answer</button>
+        <span id="span6"></span>
+      </div>
+      <button id="btnNormalFinish" class="send">Finish</button>
+    </div>
+  </section>
+  <!--End section Normal-->
+
+  <!--Start Section Hard-->
+  <section id="hardSection" class="hardSection">
+    <div class="container">
+      <div class="row">
+        <p>How Many Bones in human body?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit7" class="send">Submit Answer</button>
+        <span id="span7"></span>
+        <p>When Is the first fifa world cup?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit8" class="send">Submit Answer</button>
+        <span id="span8"></span>
+        <p>when is the first airplane invented?</p>
+        <input placeholder="Answer" type="text">
+        <button id="submit9" class="send">Submit Answer</button>
+        <span id="span9"></span>
+      </div>
+      <button id="btnHardFinish" class="send">Finish</button>
+    </div>
+  </section>
+  <!--End section Hard-->
+
+  <!--Start Section yourScore-->
+  <section id="yourScore" class="yourScore">
+    <div class="container">
+      <h2>Exam Has Been Finished</h2>
+      <h3 style="color: red;" class="text-center" id="score"></h3>
+      <div class="text-center">
+        <button id="btnRestart" style="color: #fff;" class="btn">Start Again</button>
+      </div>
+    </div>
+  </section>
+  <!--End Section yourScore-->
+
+
+  <!--Bootstrap JS CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!--FontAwesome JS-->
+  <script src="js/all.min.js"></script>
+  <!--My Js File-->
+  <script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="Assets/Images/Favicon.png">
+  <title>Pomodoro Technique</title>
+  <!--Bootstrap Css-->
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <!--Font Awesome Css-->
+  <link rel="stylesheet" href="Css/all.min.css">
+  <!--My Css File-->
+  <link rel="stylesheet" href="Css/main.css">
+</head>
+<body>
+  <!--Start Section navbar-top-->
+  <section class="navbar-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pomodoro Technique</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button id="btnDark">Dark Mode</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--End Section navbar-top-->
+
+  <!--Start Section Timer-->
+  <section class="timer text-center">
+    <div class="container">
+      <div class="time-count">
+        <h1 id="time">25:00</h1>
+        <button id="btnPomodoro">Click To Start</button>
+      </div>
+    </div>
+  </section>
+  <!--End Section Timer-->
+
+  <!--Start Section titles-->
+  <section class="titles text-center">
+    <h6>25 Min <span class="green">Working</span></h6>
+    <h6>5 Min <span class="red">Resting</span></h6>
+  </section>
+  <!--End Section titles-->
+
+
+
+  <!--Bootstrap Js-->
+  <script src="Js/bootstrap.bundle.min.js"></script>
+  <!--Font Awesome Js-->
+  <script src="Js/all.min.js"></script>
+  <!--My Js File-->
+  <script src="Js/custom.js"></script>
+</body>
+</html>

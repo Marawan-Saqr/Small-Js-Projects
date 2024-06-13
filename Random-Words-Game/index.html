@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Word Game</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!--Start section pop-up-->
+  <section id="pop-up" class="pop-up">
+    <h3>Welcome to the random word game</h3>
+    <p>In this game, you will be offered some random words, and you will type them quickly before the time runs out. If you hit each time, you will have five points, and if you do not hit, you wouldn't have points.</p>
+    <button id="windowHide">Ready?</button>
+  </section>
+  <!--End section pop-up-->
+
+  <!--Start section random-word-->
+  <section id="randomSection" class="random-word-section">
+    <h1 id="random-word">Hello</h1>
+  </section>
+  <!--End section random-word-->
+
+  <!--Start section input-->
+  <section id="input" class="input">
+    <input id="wordTyped" type="text" placeholder="Type The Word">
+    <button id="btn-check">Check</button>
+  </section>
+  <!--End section input-->
+
+  <!--Start section widgets-->
+  <section id="widgets" class="widgets">
+    <div class="time">
+      <h3>Time (20)</h3>
+    </div>
+    <div class="points">
+      <h3>Points (0)</h3>
+    </div>
+  </section>
+  <!--End section widgets-->
+
+  <script src="custom.js"></script>
+</body>
+</html>

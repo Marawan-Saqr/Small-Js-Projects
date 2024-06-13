@@ -1,0 +1,134 @@
+/* Start my personal theme */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #fff;
+  background-image: url("Cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+  height: 80vh;
+}
+/* End my personal theme */
+
+/* Start section pop-up */
+.pop-up{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 4000;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pop-up h3{
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+.pop-up p {
+  font-size: 30px;
+  color: black;
+}
+
+.pop-up button{
+  background-color: green;
+  color: #fff;
+  padding: 10px 60px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.pop-up button:hover{
+  background-color: #003b00;
+  transition: all 0.5s;
+}
+/* End section pop-up */
+
+/* Start section random word */
+.random-word-section{
+  background-color: red;
+  color: #fff;
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: none;
+}
+/* End section random-word */
+
+/* Start section input */
+.input{
+  background-color: green;
+  width: 62%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  top: 100px;
+  display: none;
+}
+
+.input input{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  width: 50%;
+  border: 1px solid red;
+  font-size: 30px;
+}
+
+.input button{
+  font-size: 30px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #5DB35B;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.input button:hover{
+  background-color: black;
+  transition: all 0.5s;
+}
+/* End section input */
+
+/* Start section widgets */
+.widgets{
+  display: flex;
+  justify-content: space-evenly;
+  color: red;
+  margin-top: -31px;
+  background-color: aliceblue;
+  display: none;
+}
+
+.widgets .time{
+  margin: 0px 10px;
+  font-size: 40px;
+}
+
+.widgets .points{
+  font-size: 40px;
+}
+/* End section widgets */

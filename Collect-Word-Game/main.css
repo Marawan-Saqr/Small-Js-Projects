@@ -1,0 +1,95 @@
+/* Start My Personal Theme */
+body{
+  background-image: url("Assets/images/Word-Game-Cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Bruno Ace', cursive;
+  font-style: italic;
+}
+/* End My Personal Theme */
+
+/* Start Section game-start */
+.game-start .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+}
+
+.game-start .content h1{
+  color: #fff;
+  font-size: 53px;
+  margin-bottom: 73px;
+}
+
+.game-start .content button{
+  border-radius: 5px;
+  border: none;
+  font-size: 28px;
+  margin: 0px 5px;
+  transition: all 0.5s;
+}
+
+.game-start .content button:hover{
+  transition: all 0.5s;
+  transform: scale(1.1, 1.1);
+}
+
+.game-start .content button[class="start"]{
+  color: #fff;
+  background-color: green;
+}
+
+.game-start .content button[class="close"]{
+  color: #fff;
+  background-color: red;
+}
+/* End Section game-start */
+
+/* Start Section top-nav */
+.top-nav{
+  color: #fff;
+  background-color: red;
+  border-bottom: 4px solid black;
+}
+/* End Section top-nav */
+
+/* Start Section boxes */
+.boxes-group .boxes{
+  background-color: red;
+  height: 180px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  border: 1px solid black; 
+}
+
+.boxes-group .boxes:hover{
+  background-color: #910000;
+  transition: all 0.5s;
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+.flipped{
+  background-color: green !important;
+  color: #fff;
+}
+
+.boxes h6 {
+  margin: 0;
+  color: #fff;
+}
+/* End Section boxes */
+
+.top-nav h6{
+  display: inline-block;
+}

@@ -1,0 +1,95 @@
+/* Start My Personal Theme */
+body{
+  background-color: antiquewhite;
+  transition: all 0.5s;
+}
+/* End My Personal Theme */
+
+/* Start Section navbar-top */
+.navbar-top nav{
+  background-color: red !important;
+}
+
+.navbar-top nav .navbar-toggler-icon{
+  color: #fff;
+  padding-top: 5px;
+}
+
+.navbar-top nav .navbar-brand{
+  color: #fff;
+}
+
+.navbar-top nav .nav-item button{
+  color: #fff;
+  background-color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.navbar-top nav .nav-item button:hover{
+  background-color: #303030;
+  transition: all 0.5s;
+}
+/* End Section navbar-top */
+
+/* Start Section timer */
+.timer{
+  margin: 90px 0px;
+}
+
+.timer h1{
+  background-color: black;
+  color: #fff;
+  width: 20%;
+  border-radius: 50%;
+  border: 3px solid orangered;
+  box-shadow: 1px 1px 7px 6px orangered;
+  margin: 0px auto 20px auto;
+  padding: 42px;
+}
+
+.timer button{
+  color: #fff;
+  background-color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.timer button:hover{
+  background-color: #303030;
+  transition: all 0.5s;
+}
+/* Start Media For Section timer */
+@media (max-width: 767px) {                                     /* Small Screen Rules */
+  .timer h1{
+    width: 37%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {              /* Medium Screen Rules */
+  .timer h1{
+    width: 30%;
+  }
+}
+/* End Media For Section timer */
+/* End Section timer */
+
+/* Start Section titles */
+.titles h6{
+  font-size: 30px;
+}
+
+.titles span[class="red"]{
+  color: red;
+}
+
+.titles span[class="green"]{
+  color: green;
+}
+/* End Section titles */

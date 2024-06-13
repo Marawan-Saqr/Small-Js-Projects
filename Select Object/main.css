@@ -1,0 +1,59 @@
+/* Start My Personal Theme */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* End My Personal Theme */
+
+/* Start section words */
+.words{
+  width: 100%;
+  position: absolute;
+  top: 31%;
+}
+
+.box-handle{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  margin: 5px;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  width: 5%;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.box:hover{
+  background-color: black;
+  color: #fff;
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+
+
+.screen{
+  position: absolute;
+  background-color: red;
+  width: 30%;
+  height: 30%;
+  border-radius: 8px;
+  left: 35%;
+  top: 66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+}
+
+h4{
+  color: #fff;
+  font-size: 30px;
+}
+/* End section words */

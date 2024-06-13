@@ -1,0 +1,67 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  position: static;
+}
+
+h1{
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -460%);
+} 
+
+h1 span {
+  color: #e9212e;
+}
+
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #e9212e;
+  padding: 44px;
+  border-radius: 21px;
+  animation-name: blur-color;
+  animation-timing-function: linear;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blur-color{
+  25%{
+    box-shadow: 1px 1px 5px 4px #e9212e;
+  }
+
+  50%{
+    box-shadow: 1px 1px 7px 6px #e9212e;
+  }
+
+  75%{
+    box-shadow: 1px 1px 9px 8px #e9212e;
+  }
+
+  100%{
+    box-shadow: 1px 1px 11px 9px #e9212e;
+  }
+}
+
+#input{
+  margin: 20px;
+  padding: 5px;
+  width: 80%;
+  border-radius: 8px;
+  border: 2px solid skyblue;
+  outline: none;
+  background-color: #52525224;
+  color: #fff;
+}
+
+#div{
+  color: #fff;
+}
