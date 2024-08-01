@@ -6,6 +6,11 @@ body{
   position: static;
 }
 
+img {
+  max-width: 66px;
+  padding: 30px;
+}
+
 h1{
   color: #fff;
   position: absolute;

@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 7px 0px;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type='submit'] {
+  margin: 10px 0px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 97px;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: cell;
+}
+
+input[type='submit']:hover {
+  background-color: black;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-wrap: wrap;
+}
+
+.special-div {
+  background-color: orange;
+  color: #fff;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
