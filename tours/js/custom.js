@@ -74,3 +74,39 @@ setTimeout(() => {
 new WOW().init();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Input Validate & Send Data
+let input = document.querySelector(".form-control");
+const requiredField = document.querySelector(".requiredField");
+let min = document.querySelector(".min");
+let max = document.querySelector(".max");
+let sendBtn = document.getElementById("sendBtn");
+
+input.addEventListener("blur", function() {
+  if (input.value.length === 0) {
+    requiredField.classList.remove("d-none");
+  }
+});
+
+input.addEventListener("input", function() {
+  requiredField.classList.add("d-none");
+});
+
+sendBtn.addEventListener("click", function() {
+  if (input.value === "") {
+    alert("Cant Send Empty Form Please Fill The Data");
+  } else if (input.value.length < 5) {
+    min.classList.remove("d-none");
+  } else if (input.value.length >= 5) {
+    alert(`Data Sent Successfully => ${input.value}`);
+    input.value = "";
+  } else if (input.value.length >= 50) {
+    max.classList.remove("d-none");
+  }
+})
+
+
+
+
+
+

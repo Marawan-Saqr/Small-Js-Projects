@@ -500,3 +500,73 @@ header .content .button-container button:hover {
   -o-transition: 0.5s;
 }
 /* End Section blogs */
+
+/* Start Section contact */
+.contact .left img {
+  height: 410px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact .right .content h2 span {
+  color: var(--primary-color);
+}
+
+.contact .right .content .alert-messages h6 {
+  margin: 5px 10px;
+}
+
+.contact .right .content button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 9px;
+  border-radius: 36px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contact .right .content button:hover {
+  background-color: #04578f;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contact .right .content ul {
+  display: flex;
+  padding: 0px;
+  justify-content: flex-start;
+}
+
+.contact .right .content ul li {
+  margin-right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contact .right .content ul li:hover {
+  color: var(--primary-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+
+/* End Section contact */
