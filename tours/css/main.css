@@ -29,9 +29,33 @@ ul {
   --primary-color: #3498db;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h-color {
+  color: #000000a6 !important;
+}
+
 /* End Glopal Rules */
 
 /* Start Section navbar-top */
+.navbar-top {
+  background-color: white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border-bottom: 2px solid var(--primary-color);
+}
+
 @media(min-width: 992px) and (max-width: 1199px) {
   .navbar-top {
     overflow: hidden;
@@ -73,6 +97,7 @@ ul {
     top: 60px;
   }
 }
+
 /* End Section navbar-top */
 
 /* Start header */
@@ -231,6 +256,7 @@ header .content .button-container button:hover {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+
 /* End header */
 
 /* Start Section statics */
@@ -267,14 +293,10 @@ header .content .button-container button:hover {
 }
 
 .statics .content h2 {
-  font-size: 50px;
-}
-
-.statics .content p {
   font-size: 30px;
 }
 
-.statics .content p span {
+.statics .content h2 span {
   color: var(--primary-color);
 }
 
@@ -284,7 +306,7 @@ header .content .button-container button:hover {
 }
 
 .statics .box i {
-  background-color: #00104c;
+  background-color: var(--primary-color);
   padding: 11px;
   border-radius: 50%;
   font-size: 20px;
@@ -298,3 +320,183 @@ header .content .button-container button:hover {
 }
 
 /* End Section statics */
+
+/* Start Section services */
+.services {
+  overflow: hidden;
+}
+
+.services .content {
+  font-style: italic;
+}
+
+.services .content h2 {
+  font-size: 30px;
+}
+
+.services .content h2 span {
+  color: var(--primary-color);
+}
+
+.services .box {
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.services .box h3 {
+  color: #000000a6;
+  font-weight: bold;
+}
+
+.services .box i {
+  background-color: var(--primary-color);
+  padding: 11px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  animation: rotate 2s linear infinite;
+}
+
+.services .box p {
+  color: gray;
+}
+/* End Section services */
+
+/* Start Section why-choose-tours */
+.why-choose-tours {
+  overflow: hidden;
+}
+
+.why-choose-tours .left img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.why-choose-tours p {
+  color: gray;
+}
+
+.why-choose-tours .right .content {
+  font-style: italic;
+}
+
+.why-choose-tours .content h2 {
+  font-size: 30px;
+}
+
+.why-choose-tours .content h2 span {
+  color: var(--primary-color);
+}
+
+.why-choose-tours .features .box i {
+  background-color: var(--primary-color);
+  padding: 11px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  animation: rotate 2s linear infinite;
+  margin-right: 20px;
+}
+
+/* End Section why-choose-tours */
+
+/* Start Section blogs */
+.blogs {
+  overflow: hidden;
+}
+
+.blogs .content h2 span {
+  color: var(--primary-color);
+}
+
+.blogs .box {
+  position: relative;
+}
+
+.blogs .box::before {
+  content: "New Blogs";
+  position: absolute;
+  right: 0px;
+  background-color: #003355;
+  color: #fff;
+  padding: 9px 15px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 12% 50%);
+}
+
+
+@media (max-width: 767px) {
+  .blogs .box {
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blogs .box {
+    margin: 20px 0px;
+  }
+}
+
+.blogs .box img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.blogs .box ul {
+  display: flex;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+.blogs .box ul li i {
+  color: var(--primary-color);
+  margin: 10px 0px;
+}
+
+.blogs h5 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.blogs .box p {
+  color: gray;
+}
+
+.blogs .box button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 9px;
+  border-radius: 36px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.blogs .box button:hover {
+  background-color: #04578f;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+/* End Section blogs */

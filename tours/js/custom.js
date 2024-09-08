@@ -1,5 +1,6 @@
 // Get Elements For Dark Mode
 let btnDark = document.getElementById("btn-dark");
+let navbarTop = document.querySelector(".navbar-top");
 let navbarBrand = document.querySelector(".navbar-brand");
 let navLink = document.querySelectorAll(".nav-link");
 
@@ -20,6 +21,8 @@ btnDark.addEventListener("click", function () {
 function windowBlackMode() {
   window.localStorage.setItem("textColor", "white");
   window.localStorage.setItem("backgroundColor", "black");
+  navbarTop.style.backgroundColor = window.localStorage.getItem("backgroundColor");
+  navbarTop.style.color = window.localStorage.getItem("textColor");
   navbarBrand.style.color = window.localStorage.getItem("textColor");
   for (let i = 0; i < navLink.length; i++) {
     navLink[i].style.color = window.localStorage.getItem("textColor");
@@ -30,8 +33,10 @@ function windowBlackMode() {
 
 // Functions Of Local Storage White Mode
 function windowWhiteMode() {
-  window.localStorage.setItem("textColor", "rgba(0, 0, 0, 0.65)");
+  window.localStorage.setItem("textColor", "#000000a6");
   window.localStorage.setItem("backgroundColor", "white");
+  navbarTop.style.backgroundColor = window.localStorage.getItem("backgroundColor");
+  navbarTop.style.color = window.localStorage.getItem("textColor");
   navbarBrand.style.color = window.localStorage.getItem("textColor");
   for (let i = 0; i < navLink.length; i++) {
     navLink[i].style.color = window.localStorage.getItem("textColor");
