@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, Arial;
+}
+
+.serial {
+  width: 200px;
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px auto 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 66.5px;
+}
+
+.generate {
+  background-color: #f44336;
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.generate:hover {
+  background-color: #e83123;
+}

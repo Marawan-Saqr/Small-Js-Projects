@@ -1,0 +1,61 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("New-Year.jpg");
+  background-size: cover;
+}
+
+.span {
+  color: red;
+  border: none !important;
+}
+
+.counter-box span {
+  border: 1px solid #fff;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  font-size: 33px;
+}
+
+.counter-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border: 2px solid orangered;
+  padding: 33px;
+  border-radius: 17px;
+  background-color: #333;
+  color: #fff;
+  outline: 4px solid #0cc500;
+}
+
+.counter-box h1 {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 11px;
+  animation-name: big-small;
+  animation-duration: 3.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes big-small {
+  25% {
+    transform: scale(1.1, 1.1);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  75% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

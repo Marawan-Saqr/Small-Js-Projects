@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--Start div game-->
+    <div class="game">
+
+        <!--The name of the game-->
+        <div class="name">
+            Typing Speed Game
+        </div>
+        <!--The name of the game-->
+
+        <div class="container">
+
+            <!--Level status-->
+            <div class="message">
+                You are playing on
+                <span class="lvl"></span> Level & you have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <!--Level status-->
+
+            <!--Button to start-->
+            <div class="start">
+                Start Playing
+            </div>
+            <!--Button to start-->
+
+            <!--Word appear after finishing the game-->
+            <div class="the-word">
+            </div>
+            <!--Word appear after finishing the game-->
+
+            <!--Input of typing game-->
+            <input type="text" class="input" />
+
+            <!--Status of the level-->
+            <div class="upcoming-words">
+                Words will show here
+            </div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="got">0</span> from <span class="total">50</span></div>
+            </div>
+            <div class="finish"></div>
+        </div>
+    </div>
+    <!--End div game-->
+
+    <script src="custom.js"></script>
+</body>
+</html>
